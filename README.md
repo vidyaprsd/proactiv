@@ -6,7 +6,7 @@ ProactiV is a DL model-agnostic visual analytics method to help model developers
 
 ## Input Optimization
 
-![Overview of the proposed input optimization method]([https://github.com/vidyaprsd/proactiv/imgs/overview.png](https://github.com/vidyaprsd/proactiv/blob/dev/imgs/overview.png))
+![Overview of the proposed input optimization method](https://github.com/vidyaprsd/proactiv/blob/dev/imgs/overview.png)
 
 ## Repository
 <b>This repository contains scripts for the proposed input optimization process of ProactiV</b>. While ProactiV is generic to any differentiable model, we provide a character classification example with EMNIST in this repository. More complex image-to-image translation use cases including MRI reconstruction and GANs can be found in our paper.
