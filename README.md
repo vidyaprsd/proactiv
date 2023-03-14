@@ -6,7 +6,7 @@ ProactiV is a DL model-agnostic visual analytics method to help model developers
 
 ## Input Optimization
 
-![Overview of the proposed input optimization method](https://github.com/vidyaprsd/proactiv/imgs/overview.png)
+![Overview of the proposed input optimization method]([https://github.com/vidyaprsd/proactiv/imgs/overview.png](https://github.com/vidyaprsd/proactiv/blob/dev/imgs/overview.png))
 
 ## Repository
 <b>This repository contains scripts for the proposed input optimization process of ProactiV</b>. While ProactiV is generic to any differentiable model, we provide a character classification example with EMNIST in this repository. More complex image-to-image translation use cases including MRI reconstruction and GANs can be found in our paper.
@@ -16,11 +16,11 @@ The scripts mostly run independently from each other.
 
 - First, set the parameters for the input optimization, logging, and difference computation in <b>params.py</b>. We default to the ones used in our paper.
 
-- The main input optimization code can be found in <b>main.py</b>. The training hyper-parameters and transform functions T in params.py can be defined as needed. The resultant transformed and projected input-output pairs will be dumped into the log directory. <b>Please see input_optimize() for details on the optimization process.</b>
+- <b>Input optimization</b>: The main input optimization code can be found in <b>main.py</b>. The training hyper-parameters and transform functions T in params.py can be defined as needed. The resultant transformed and projected input-output pairs will be dumped into the log directory. <b>Please see input_optimize() for details on the optimization process.</b>
 
-- With the resultant components from the input optimization in main.py, the corresponding differences between them can be computed for model behavior analysis in <b>compute_differences.py</b>. The resultant difference vectors <b>d</b> per input will be dumped into the same log directory as before.
+- <b>Difference computation</b>: With the resultant components from the input optimization in main.py, the corresponding differences between them can be computed for model behavior analysis in <b>compute_differences.py</b>. The resultant difference vectors <b>d</b> per input will be dumped into the same log directory as before.
 
-- A global snapshot of the model behavior per transform function or instance can be obtained via dimensionality reduction of the difference vectors per input in <b>dim_reduction_plot.py</b>.
+- <b>Dimensionality reduction</b>: A global snapshot of the model behavior per transform function or instance can be obtained via dimensionality reduction of the difference vectors per input in <b>dim_reduction_plot.py</b>.
 
 ## Citation
 If you use this code for your research, please cite our paper. 
