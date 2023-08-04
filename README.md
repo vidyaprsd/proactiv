@@ -30,7 +30,7 @@ If you use this code for your research, please cite our IEEE TVCG paper.
   author={Prasad, Vidya and van Sloun, Ruud and Vilanova, Anna and Pezzotti, Nicola},
   year={2023},
   publisher={IEEE Transactions on Visualization and Computer Graphics},
-  doi=0.1109/TVCG.2023.3301722
+  doi=10.1109/TVCG.2023.3301722
 }
 ```
 
