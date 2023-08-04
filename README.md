@@ -23,15 +23,19 @@ The scripts mostly run independently from each other.
 - <b>Dimensionality reduction</b>: A global snapshot of the model behavior per transform function or instance can be obtained via dimensionality reduction of the difference vectors per input in <b>dim_reduction_plot.py</b>.
 
 ## Citation
-If you use this code for your research, please cite our paper. 
-Preprint: https://doi.org/10.36227/techrxiv.21946712.v1
+If you use this code for your research, please cite our IEEE TVCG paper. 
 ```
 @article{prasad2023proactiv,
-  title={ProactiV: Studying deep learning model behavior under input transformations},
+  title={ProactiV: Studying Deep Learning Model Behavior under Input Transformations},
   author={Prasad, Vidya and van Sloun, Ruud and Vilanova, Anna and Pezzotti, Nicola},
   year={2023},
-  publisher={TechRxiv}}
+  publisher={IEEE Transactions on Visualization and Computer Graphics},
+  doi=0.1109/TVCG.2023.3301722
+}
 ```
+
+The paper is also publicly available on techrxiv: https://doi.org/10.36227/techrxiv.21946712
+
 ## Acknowledgments
 SpinalNet model code: Original paper source code [SpinalNet](https://github.com/dipuk0506/SpinalNet/blob/master/MNIST_VGG/EMNIST_letters_VGG_and%20_SpinalVGG.py).
 
