@@ -23,7 +23,7 @@ The scripts mostly run independently from each other.
 - <b>Dimensionality reduction</b>: A global snapshot of the model behavior per transform function or instance can be obtained via dimensionality reduction of the difference vectors per input in <b>dim_reduction_plot.py</b>.
 
 ## Citation
-If you use this code for your research, please cite our IEEE TVCG paper. 
+If you use this code for your research, please cite our IEEE TVCG paper available here - https://doi.org/10.1109/TVCG.2023.3301722. 
 ```
 @article{prasad2023proactiv,
   title={ProactiV: Studying Deep Learning Model Behavior under Input Transformations},
