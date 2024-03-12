@@ -56,7 +56,7 @@ def input_optimize(model, data_loader, params):
                 print("Batch: ", index, "; Epoch: ", epoch, "; Loss: ", np.round(loss.item(), 4))
 
             if params["plotinterim_checkpoint"] > 0 and (epoch % params["plotinterim_checkpoint"] == 0 or epoch == params["num_iters"] - 1):
-                plot_interim(batch['input'], trainable_input, index, epoch)
+                plot_interim(batch['input'], trainable_input.tensor, index, epoch)
 
         outputs         = model(trainable_input.tensor)
         save_data(log_subdir, index, trainable_input.tensor, outputs, batch['target'], 'projected')
